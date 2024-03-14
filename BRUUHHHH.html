@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Halaman Lain</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif; 
+        background-image: url('https://i.pinimg.com/236x/6b/58/87/6b58872a4b8d579c2be92a0741c2886d.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        flex-direction: column;
+    }
+
+    .message-box {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    h2 {
+        color: #333;
+    }
+
+    p {
+        color: #666;
+        margin-top: 20px;
+    }
+
+    .btn-back {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-top: 20px;
+    }
+
+    .btn-back:hover {
+        background-color: #0056b3;
+    }
+</style>
+</head>
+<body>
+<div class="message-box">
+    <h2>Astaghfirullah dek, gak boleh curang</h2>
+    <p>PARAH MALAH PAKE CHEAT, NO RISPEK</p>
+    <button class="btn-back" onclick="kembali()">Kembali</button>
+</div>
+
+<script>
+    function kembali() {
+        // Redirect kembali ke halaman sebelumnya
+        window.history.back();
+    }
+</script>
+
+</body>
+</html>
